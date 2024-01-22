@@ -1,0 +1,24 @@
+<div id="calculator">
+    <div id="display">{{ displayValue }}</div>
+    <div id="buttons">
+      <button (click)="clear()">C</button>
+      <button (click)="appendNumber('7')">7</button>
+      <button (click)="appendNumber('8')">8</button>
+      <button (click)="appendNumber('9')">9</button>
+      <button (click)="setOperator('/')">/</button>
+      <button (click)="appendNumber('4')">4</button>
+      <button (click)="appendNumber('5')">5</button>
+      <button (click)="appendNumber('6')">6</button>
+      <button (click)="setOperator('*')">*</button>
+      <button (click)="appendNumber('1')">1</button>
+      <button (click)="appendNumber('2')">2</button>
+      <button (click)="appendNumber('3')">3</button>
+      <button (click)="setOperator('-')">-</button>
+      <button (click)="appendNumber('0')">0</button>
+      <button (click)="appendDecimal()">.</button>
+      <button (click)="calculate()">=</button>
+      <button (click)="setOperator('+')">+</button>
+    </div>
+  </div>
+
+  <h1>Hello Mr Machas</h1>
